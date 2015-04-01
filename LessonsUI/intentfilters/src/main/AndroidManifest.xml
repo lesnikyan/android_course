@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".ViewItemActivity"
+            android:label="@string/title_activity_view_item" >
+        </activity>
+        <activity
+            android:name=".ReceivedValueActivity"
+            android:label="@string/title_activity_received_value" >
+        </activity>
     </application>
 
 </manifest>
