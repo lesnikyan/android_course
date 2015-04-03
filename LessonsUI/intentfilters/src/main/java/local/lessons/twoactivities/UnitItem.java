@@ -1,4 +1,4 @@
-package local.lessons.intentfilters;
+package local.lessons.twoactivities;
 
 /**
  * Created by Less on 01.04.2015.

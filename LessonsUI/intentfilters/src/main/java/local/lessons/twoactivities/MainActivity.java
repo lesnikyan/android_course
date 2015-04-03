@@ -1,4 +1,4 @@
-package local.lessons.intentfilters;
+package local.lessons.twoactivities;
 
 import android.app.Activity;
 import android.content.Intent;

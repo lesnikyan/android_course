@@ -1,7 +1,6 @@
-package local.lessons.intentfilters;
+package local.lessons.twoactivities;
 
 import android.content.Context;
-import android.view.View;
 
 /**
  * Created by Less on 01.04.2015.

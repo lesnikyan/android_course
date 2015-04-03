@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="local.lessons.intentfilters" >
+    package="local.lessons.twoactivities" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="local.lessons.twoactivities.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,15 +17,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ListActivity"
+            android:name="local.lessons.twoactivities.ListActivity"
             android:label="@string/title_activity_list" >
         </activity>
         <activity
-            android:name=".ViewItemActivity"
+            android:name="local.lessons.twoactivities.ViewItemActivity"
             android:label="@string/title_activity_view_item" >
         </activity>
         <activity
-            android:name=".ReceivedValueActivity"
+            android:name="local.lessons.twoactivities.ReceivedValueActivity"
             android:label="@string/title_activity_received_value" >
         </activity>
     </application>
