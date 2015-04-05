@@ -1,4 +1,4 @@
-package local.lessons.twoactivities;
+package local.lessons.real_intent_filters;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

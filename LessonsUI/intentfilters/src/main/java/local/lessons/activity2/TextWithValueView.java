@@ -1,4 +1,4 @@
-package local.lessons.twoactivities;
+package local.lessons.activity2;
 
 import android.content.Context;
 
