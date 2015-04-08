@@ -1,4 +1,4 @@
-package local.lessons.activity2;
+package local.lessons.fewactivities;
 
 import android.content.Context;
 import android.util.Log;

@@ -1,4 +1,4 @@
-package local.lessons.activity2;
+package local.lessons.fewactivities;
 
 /**
  * Created by Less on 01.04.2015.

@@ -1,34 +1,31 @@
-package local.lessons.activity2;
+package local.lessons.sqlitestart;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 
-public class ReceivedValueActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity {
 
-    @Override
+
+	private MessagesDbHelper dbHelper;
+
+
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_received_value);
-        Intent intent = getIntent();
-        TextView itemView = ((TextView)findViewById(R.id.textViewName));
-        String name = intent.getStringExtra("itemName");
-        int color = intent.getIntExtra("itemColor", 0);
-        ((LinearLayout)findViewById(R.id.mainLayout)).setBackgroundColor(color);
-        itemView.setText(name);
-        itemView.setTextColor(MyColors.colorByBackground(color));
+        setContentView(R.layout.activity_main);
+
+		dbHelper = new MessagesDbHelper(this);
+
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_received_value, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
