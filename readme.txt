@@ -1,6 +1,6 @@
 Some number of examples of android lessons.
 Plan:
-1. Avticity, Layout, Winget, LustView:Adapter
+1. Avticity, Layout, Winget, ListView:Adapter
 2. Intent, IntentFilter, Extras
 3. Service, PendingIntent
 4. Sqlite, CursorAdapter
